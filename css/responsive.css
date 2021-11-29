@@ -37,6 +37,21 @@
 /* Query for #steps */
 
 @media screen and (max-width: 419px) {
-    
+    .container.grey {
+        background-color: #fff;
+    }
+
+    #steps .row {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+    margin-top: 10px;
+}
 }
 
