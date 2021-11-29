@@ -1,11 +1,13 @@
 /* Query for #lezioni */
 
 @media screen and (max-width: 419px) {
-    #lezioni .row{
+    #lezioni>.row{
         margin-top: 0;
         display: flex;
         flex-direction: column;
         background-color: #F2F2CD;
+        align-items: center;
+        width: 100%;
     }
 
     #lezioni img {
@@ -14,17 +16,12 @@
         justify-content: center;
     }
 
-    #lezioni>.row .left {
+    /* #lezioni>.row .left {
         align-self: center;
     }
 
     #lezioni>.row .right {
         align-self: center;
-    }
-
-    /* #lezioni .row>h3 {
-        margin-bottom: 2px;
-        display: block;
     } */
 }
 
