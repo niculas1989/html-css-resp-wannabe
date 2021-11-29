@@ -1,3 +1,5 @@
+/* Query for #lezioni */
+
 @media screen and (max-width: 419px) {
     #lezioni .row{
         margin-top: 0;
@@ -30,3 +32,11 @@
         align-self: center;
     } */
 }
+
+
+/* Query for #steps */
+
+@media screen and (max-width: 419px) {
+    
+}
+
