@@ -14,23 +14,17 @@
         justify-content: center;
     }
 
-    .row .left {
+    #lezioni>.row .left {
         align-self: center;
     }
 
-    .row .right {
+    #lezioni>.row .right {
         align-self: center;
     }
 
-    .row>h3 {
+    /* #lezioni .row>h3 {
         margin-bottom: 2px;
         display: block;
-    }
-    /* #lezioni .row>.left,
-    #lezioni .row>.right {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
     } */
 }
 
@@ -61,24 +55,39 @@
 }
 
 
-/* Query for #why*/
+/* Query for #why */
 
 @media screen and (max-width: 419px) {
     
+    #why>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+    }
+
     #why .row>.first,
     #why .row>.second,
-    #why .row>.third {
+    #why .row>.third,
+    #why .row>h1  {
         margin-top: 0px;
         background-color: #F2F2CD;
+        width: 419px;
+
+        align-self: center;
     }
 
     #why img {
         height: 6rem;
     }
 
-    .row>h1 {
+    #why .row>h1 {
         background-color: #F2F2CD;
         margin-bottom: 0px;
+    }
+
+    #why h3 {
+        text-align: center;
     }
 }
 
