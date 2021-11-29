@@ -49,8 +49,8 @@
     }
 
     #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
+    #steps .row>.central,
+    #steps .row>.right {
     margin-top: 10px;
 }
 }
