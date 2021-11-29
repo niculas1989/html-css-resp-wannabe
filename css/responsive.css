@@ -55,3 +55,16 @@
 }
 }
 
+
+/* Query for #why*/
+
+@media screen and (max-width: 419px) {
+    #why .row>.first,
+#why .row>.second,
+#why .row>.third {
+        background-color: #F2F2CD;
+        margin-top: 0px;
+        border-bottom: 1px solid black;
+    }
+}
+
